@@ -10,5 +10,8 @@ To enable any of the features, you need to write the command `/function mine:opt
 
 # Functions list
 
-`/function mine:options/afk/on` This feature adds a gray icon to the player's nickname if the player has not moved for 8 minutes ![there should be an image here](Image/afk_8m.png)
+1. `/function mine:options/afk/on` This feature adds a gray icon to the player's nickname if the player has not moved for 8 minutes ![there should be an image here](Image/afk_8m.png)
 and a gold icon if the player has not moved for more than 30 minutes. ![there should be an image here](Image/afk_30m.png)
+2. `/function mine:options/hp/on` This function adds the player's health number under their nickname. This function has two display modes that can be changed using the command on
+ the label and on the icon. This feature adds a player's health bar under their nickname. Also this feature also has two display modes, which can be changed using the `/function mine:config/hp/no_icon` command to display `HP` and the `/function mine:config/hp/icon` command to display an icon.
+![there should be an image here](Image/hp_no_icon.png) ![there should be an image here](Image/hp_icon.png)
