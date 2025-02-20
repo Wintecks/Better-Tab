@@ -1,0 +1,23 @@
+team modify 8m_AFK suffix " §f⌚"
+team modify 9_30m_AFK suffix " §f⌚"
+
+team modify AFK_none_status_stream prefix "§f📶"
+team modify AFK_none_status_stream suffix ""
+team modify AFK_8m_status_stream prefix "§f📶"
+team modify AFK_8m_status_stream suffix " §f⌚"
+team modify AFK_30m_status_stream prefix "§f📶"
+team modify AFK_30m_status_stream suffix " §f⌚"
+
+team modify AFK_none_status_record prefix "§f🎞"
+team modify AFK_none_status_record suffix ""
+team modify AFK_8m_status_record prefix "§f🎞"
+team modify AFK_8m_status_record suffix " §f⌚"
+team modify AFK_30m_status_record prefix "§f🎞"
+team modify AFK_30m_status_record suffix " §f⌚"
+
+team modify AFK_none_status_none prefix ""
+team modify AFK_none_status_none suffix ""
+team modify AFK_8m_status_none prefix ""
+team modify AFK_8m_status_none suffix " §f⌚"
+team modify AFK_30m_status_none prefix ""
+team modify AFK_30m_status_none suffix " §f⌚"

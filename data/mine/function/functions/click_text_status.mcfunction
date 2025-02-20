@@ -1,0 +1,4 @@
+tellraw @s {"text": "Status Menu","color": "aqua"}
+tellraw @s ""
+tellraw @s [{"text":"Record ", "color":"red", "clickEvent":{"action":"run_command", "value":"/scoreboard players add @s status_record 1"}}, {"text": "[","color":"yellow"}, {"text": "🎞", "color":"red", "clickEvent": {"action":"run_command", "value":"/scoreboard players add @s status_record 1"}}, {"text": "]", "color":"yellow"}]
+tellraw @s [{"text": "Stream ", "color":"dark_purple", "clickEvent":{"action":"run_command", "value":"/scoreboard players add @s status_stream 1"}}, {"text": "[","color":"yellow"}, {"text": "📶", "color": "dark_purple", "clickEvent":{"action":"run_command", "value":"/scoreboard players add @s status_stream 1"}}, {"text": "]","color":"yellow"}] 
