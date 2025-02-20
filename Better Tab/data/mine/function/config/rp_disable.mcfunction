@@ -1,1 +1,0 @@
-scoreboard players set Playr rp_state 0

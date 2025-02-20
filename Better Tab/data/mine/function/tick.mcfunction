@@ -1,1 +1,0 @@
-execute as @a if score @s leave_game matches 1.. if entity @s[advancements={mine:join_game=true}] run function mine:functions/leave_game
