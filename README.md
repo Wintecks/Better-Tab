@@ -9,3 +9,6 @@ To enable any of the features, you need to write the command `/function mine:opt
 **YOU NEED TO ENTER ONE OF THESE COMMANDS, OTHERWISE THE DATA PACKAGE WILL NOT WORK.** If you are not using resource packs specific to this data pack, you need to use this command `/function mine:config/rp_disable`. If you are using any resource pack that changes these icons, you need to use this command `/function mine:config/rp_enable`.
 
 # Functions list
+
+`/function mine:options/afk/on` This feature adds a gray icon to the player's nickname if the player has not moved for 8 minutes ![there should be an image here](Image/afk_8m.png)
+and a gold icon if the player has not moved for more than 30 minutes. ![there should be an image here](Image/afk_30m.png)
