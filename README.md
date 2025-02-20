@@ -26,3 +26,19 @@ and a gold icon if the player has not moved for more than 30 minutes. You can al
 5. `/function mine:options/status/on` This feature adds a status icon in front of the player's nickname. There are currently two statuses: stream status and recording status. You can assign yourself a status using a command or after logging into a world or server. There are currently three commands: the first command `/trigger status_stream` adds a stream status, the second command `/trigger status_record` adds a record status, and the third command `/trigger status_none` removes the status if it was you
    
 	![there should be an image here](Image/status.png)
+
+### I want to note that each function can work with another function, and all these functions can work together.
+
+## Command list
+1. `/function mine:config/rp_enable` If you are using a resource pack for this data pack
+2. `/function mine:config/rp_disable` if you are not using a resource pack for this dack pack
+3. `/trigger status_afk` in order to return to the status of afk
+4. `/trigger status_stream` to put it in the status stream
+5. `/trigger status_record` to do this, press the record status
+6. `/trigger status_none` to remove status
+7. `/function mine:options/afk/on` to enable the AFK function
+8. `/function mine:options/hp/on` to enable the HP display function
+		`/function mine:config/hp/icon` to set a heart icon instead of the HP inscription
+		`/function mine:config/hp/no_icon` set HP instead of heart icon
+9. `/function mine:options/nwc/on` to enable the function of displaying which dimension the player is in
+10. `/function mine:options/status/on` to enable the status feature
